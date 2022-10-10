@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "name": "CTFM BURGER (Beef)",
+      "description": "Grilled and basted in CTFM's special BBQ sauce, served with onion rings",
+      "price": 112
+    },
+    {
+      "name": "CHICKEN CURRY *",
+      "description": "Chicken and fresh vegetables in a traditional Cape Malay curry sauce, served with savoury rice",
+      "price": 114
+    },
+    {
+      "name": "CHICKEN SCHNITZEL",
+      "description": "Crumbed in Japanese bread crumbs, deep-fried until golden brown, served with onion rings and a sauce of your choice",
+      "price": 128
+    },
+    {
+      "name": "SIRLOIN STEAK (250G)",
+      "description": "A sirloin steak, basted in CTFM's BBQ sauce, served with onion rings",
+      "price": 162
+    },
+    {
+      "name": "BEEF RIBS (600g)",
+      "description": "Grilled beef ribs, basted in CTFM's BBQ sauce, served with onion rings",
+      "price": 270
+    }
+  ]
+}

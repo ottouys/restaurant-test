@@ -1,0 +1,27 @@
+{
+  "items": [
+    {
+      "name": "ICE CREAM",
+      "description": "The original classic, served with hot chocolate sauce",
+      "price": 50
+    },
+    {
+      "name": "DEEP-FRIED OREOS",
+      "description": "Served with ice cream and chocolate sauce",
+      "price": 56
+    },
+    {
+      "description": "A melt-in-your-mouth chocolate delight",
+      "price": 70
+    },
+    {
+      "name": "STRAWBERRY CHEESECAKE",
+      "description": "Served with a medley of seasonal fruit",
+      "price": 70
+    },
+    {
+      "name": "STICKY TOFFEE",
+      "price": 70
+    }
+  ]
+}

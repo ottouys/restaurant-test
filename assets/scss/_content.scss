@@ -1,0 +1,38 @@
+#menu{
+  .buttons{
+    button{
+      margin-right:10px;
+    }
+  }
+
+  #menu-display{
+    margin-top:30px;
+
+    .title{      
+      margin-top:20px;
+      margin-bottom:20px;
+
+      h5{
+        text-transform: uppercase;
+      }
+    }
+
+    .menu-item{
+      margin-bottom: 15px;
+      border-bottom: 1px solid black;
+      padding-bottom:15px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.hidden{
+  display:none!important;
+}
+
+#success-message{
+  p{
+    color: green;
+    font-weight: 600;
+  }  
+}

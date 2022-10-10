@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "name": "CHEESE & GARLIC BREAD",
+      "description": "Smothered in cheese and garlic",
+      "price": 40
+    },
+    {
+      "name": "CHILLI POPPERS (V)",
+      "description": "4 tempura-fried chilli poppers filled with cheese and served with sweet chilli sauce",
+      "price": 66
+    },
+    {
+      "name": "CALAMARI",
+      "description": "Deep-fried calamari strips in a savoury salt-and-pepper crust, served with tartar sauce",
+      "price": 68
+    },
+    {
+      "name": "FISH CAKES",
+      "description": "A combination of salmon, kingklip, hake and potato, deep-fried and served with tartar sauce",
+      "price": 68
+    },
+    {
+      "name": "PRAWN SPRING ROLLS",
+      "description": "3 Spring rolls, deep-fried and served with sweet chilli sauce",
+      "price": 76
+    }
+  ]
+}

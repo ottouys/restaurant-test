@@ -1,0 +1,28 @@
+#main-footer {
+  background-color: #033366;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+#main-footer .footer-icon {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#main-footer .footer-icon svg {
+  opacity: 0.5;
+}
+
+@media (max-width: 992px) {
+  #main-footer .col-12 {
+    text-align: center;
+  }
+
+  #main-footer .col-12.last {
+    margin-top: 30px;
+  }
+}

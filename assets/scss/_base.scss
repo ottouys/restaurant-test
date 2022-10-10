@@ -1,0 +1,422 @@
+/* Base */
+body {
+  font-family: alternate-gothic-atf, sans-serif;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: alternate-gothic-condensed-a, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  font-size: 70px;
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  h1,
+  h2 {
+    font-size: 120px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: auto;
+  height: 100%;
+}
+
+.dark p,
+.dark h1,
+.dark h5,
+.dark a,
+.dark figcaption {
+  color: white;
+}
+
+main {
+  padding-top: 86px;
+}
+
+@media (min-width: 992px) {
+  .p-right {
+    text-align: right;
+  }
+
+  main {
+    padding-top: 62px;
+  }
+}
+
+.p-uppercase {
+  text-transform: uppercase;
+}
+
+.content-section {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+@media (min-width: 992px) {
+  .content-section {
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+  }
+}
+
+/* Content */
+#what-is-drop {
+  background-color: #4888cd;
+}
+
+#what-is-drop img {
+  max-width: 206px;
+  display: block;
+  margin: 30px auto;
+}
+
+#what-is-drop .row {
+  @include align-items(center);
+}
+
+#get-the-app {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 992px) {
+  #get-the-app .store-icon {
+    width: 150px;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  #get-the-app .store-icon {
+    width: auto;
+    height: 60px;
+    margin-right: 10px;
+  }
+}
+
+#get-the-app .col-12 {
+  position: relative;
+}
+
+#get-the-app .has-bg.bg-drop-light {
+  width: 234px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  right: 0%;
+  z-index: 0;
+  top: 50%;
+}
+
+#get-the-app .has-bg.bg-drop-light::before {
+  content: "";
+  background-image: url("../images/drop-white.svg");
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+  #get-the-app .has-bg.bg-drop-light {
+    right: 20%;
+    top: 0;
+  }
+
+  #send-parcel h2 {
+    text-align: right;
+    @include justify-content(flex-end);
+    @include flexbox;
+    margin-left: auto;
+  }
+}
+
+#get-the-app h2 {
+  position: relative;
+  z-index: 10;
+  color: #164193;
+}
+
+#send-parcel .has-bg.bg-drop-light {
+  width: 240px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  top: 0;
+}
+
+#send-parcel .has-bg.bg-drop-light::before {
+  content: "";
+  background-image: url("../images/drop-red.svg");
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+  #send-parcel .has-bg.bg-drop-light {
+    width: 385px;
+    left: -25%;
+  }
+}
+
+#send-parcel .col-12 {
+  position: relative;
+  @include flexbox;
+  @include align-items(center);
+}
+
+#send-parcel h2 {
+  position: relative;
+  z-index: 10;
+  color: #164193;
+}
+
+.col-images {
+  z-index: 12;
+}
+
+.col-images figure {
+  max-width: 100%;
+  height: auto;
+}
+
+.col-images figure img {
+  width: 100%;
+  /* box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.29); */
+}
+
+.col-images figure figcaption {
+  font-family: alternate-gothic-condensed-a, sans-serif;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.col-images figure p {
+  margin-top: 15px;
+}
+
+#drive-for-drops {
+  background-color: #4888cd;
+}
+
+#drive-for-drops h2 {
+  color: #e52a2d;
+  z-index: 15;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  #drive-for-drops h2 {
+    text-align: right;
+  }
+}
+
+#drive-for-drops .has-bg.bg-drop-light {
+  width: 240px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 25%;
+  z-index: 10;
+  top: 0;
+}
+
+#drive-for-drops .has-bg.bg-drop-light::before {
+  content: "";
+  background-image: url("../images/drop-white-reversed.svg");
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 1200px) {
+  #drive-for-drops .has-bg.bg-drop-light {
+    width: 440px;
+  }
+
+  #drive-for-drops .content-col p {
+    padding-right: 15%;
+  }
+}
+
+#drive-for-drops .content-col {
+  @include flexbox;
+  position: relative;
+  @include align-items(center);
+}
+
+@media (max-width: 1200px) {
+  #drive-for-drops .content-col {
+    @include flex-direction(column);
+  }
+
+  #drive-for-drops .content-col h1 {
+    order: 1;
+  }
+
+  #drive-for-drops .content-col p {
+    order: 2;
+  }
+
+  #drive-for-drops .content-col p {
+    text-align: center;
+  }
+
+  #drive-for-drops .col-images {
+    margin-top: 30px;
+  }
+}
+
+#drive-for-drops .col-images figure {
+  text-align: center;
+}
+
+#drive-for-drops a,
+#driver-agreement a.btn {
+  background-color: #e52a2d;
+  text-transform: uppercase;
+  padding: 19px 45px;
+  margin-top: 25px;
+  border: 3px solid #e52a2d;
+  transition: 0.5s all;
+  border-radius: 0px;
+}
+
+@media (min-width: 992px) {
+  #drive-for-drops a,
+  #driver-agreement a.btn {
+    padding: 19px 90px;
+  }
+}
+
+#driver-agreement a.btn {
+  width: auto;
+  margin: 30px auto;
+}
+
+#drive-for-drops a.btn:hover,
+#driver-agreement a.btn:hover {
+  background-color: transparent;
+}
+
+#driver-agreement a:hover {
+  color: #e52a2d;
+}
+
+@media (min-width: 992px) {
+  #drive-for-drops h2 {
+    padding-right: 5%;
+  }
+
+  #what-is-drop h1 {
+    padding-right: 50%;
+  }
+
+  #get-the-app h2 {
+    padding-left: 50%;
+  }
+
+  #what-is-drop img {
+    margin: 0 auto;
+  }
+}
+
+#driver-agreement .has-bg.bg-drop-light {
+  width: 241px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  top: 125px;
+}
+
+#driver-agreement .has-bg.bg-drop-light::before {
+  content: "";
+  background-image: url("../images/drop-driver-agreement.svg");
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+#driver-agreement h1 {
+  font-size: 40px;
+  text-transform: none;
+  font-family: alternate-gothic-atf, sans-serif;
+  text-align: center;
+}
+
+#driver-agreement b,
+#driver-agreement strong {
+  font-family: alternate-gothic-condensed-a, sans-serif;
+}
+
+#driver-agreement a:not(.btn) {
+  font-family: alternate-gothic-condensed-a, sans-serif;
+  color: #164193;
+  text-decoration: underline;
+}
+
+#driver-agreement .row .col {
+  @include justify-content(center);
+  @include flexbox;
+  @include flex-direction(column);
+}
+
+#accordionFlushExample {
+  margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+  #what-is-drop .row .col-12,
+  #get-the-app .row .col-12,
+  #send-parcel .row .col-12 {
+    text-align: center;
+  }
+
+  #get-the-app ul {
+    list-style-position: inside;
+  }
+
+  #send-parcel h2 {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  #send-parcel .col,
+  #drive-for-drops .col {
+    min-width: 50%;
+  }
+}
